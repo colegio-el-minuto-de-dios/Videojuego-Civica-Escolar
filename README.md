@@ -7,7 +7,9 @@ Se desarrollará un videojuego en donde se presentarán una serie de problemáti
 ## Comenzando 🚀
 _Para el equipo: Seguir las instrucciones detalladas a continuación para obtener una copia del proyecto en funcionamiento en sus máquinas locales para propósitos de desarrollo, integración y pruebas._
 ### Pre-requisitos 📋
-
+* Tener cuenta en GitHub
+* Descargar Sourcetree
+* Descargar Unity
 
 ## Software usado 🛠️
 * [Unity v.20191.4f1 Personal](http://www.dropwizard.io/1.0.2/docs/) - Motor de videojuegos
