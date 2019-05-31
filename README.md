@@ -2,7 +2,7 @@
 Este proyecto tiene como fin comentar la cultura cívica escolar buscando formar mejores ciudadanos mediante el uso de las TICs en la creación de herramientas lúdico-pedagógicas.
 
 ## Producto final
-Se desarrollará un videojuego en donde se presentarán una serie de problemáticas relacionadas con la falta de cultura ciudadana en el ámbito escolar, en donde el estudiante deberá darles solución a cada una para avanzar en el juego. Así pues, el jugador reflexionará sobre el impacto y el alcance que  tienen las problemáticas mostradas sobre los demás individuos y el entorno, adquiriendo una mayor conciencia cívica y apropiando hábitos para construir una mejor sociedad en la vida real.
+Se desarrollará un videojuego en el motor Unity 3D que trabaja bajo programacón en C#, en donde se presentarán una serie de problemáticas relacionadas con la falta de cultura ciudadana en el ámbito escolar, en donde el estudiante deberá darles solución a cada una para avanzar en el mismo. Así pues, el jugador reflexionará sobre el impacto y el alcance que  tienen las problemáticas mostradas sobre los demás individuos y el entorno, adquiriendo una mayor conciencia cívica y apropiando hábitos para construir una mejor sociedad en la vida real.
 
 ## Comenzando 🚀
 _Para el equipo: Seguir las instrucciones detalladas a continuación para obtener una copia del proyecto en funcionamiento en sus máquinas locales para propósitos de desarrollo, integración y pruebas._
