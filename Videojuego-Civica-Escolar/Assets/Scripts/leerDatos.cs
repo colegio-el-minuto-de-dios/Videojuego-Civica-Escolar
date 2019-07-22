@@ -1,0 +1,71 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System.IO;  
+using System;
+using System.Text;
+using TMPro;
+using UnityEngine.UI;
+
+public class leerDatos : MonoBehaviour
+{
+    public TMP_InputField cuadroNombre;
+    public TMP_InputField cuadroContraseña;
+    public TextMeshProUGUI testigo;
+    public static string nombre;
+    public static string contraseña;
+    public static string genero; 
+
+    void Start()
+    {
+        testigo.text = "".ToString();                        
+    }
+    public void iniciarPartida(){
+        //verificar si hay algo en el nombre
+        if (cuadroNombre.text != null){
+            nombre = cuadroNombre.text;
+            contraseña = cuadroContraseña.text;    
+            recuperarDatos();
+
+            print(nombre); 
+        }  
+        if(cuadroNombre.text == ""){
+            testigo.text = "Ingresa un nombre válido".ToString();  
+        }        
+  
+    }
+
+    public void recuperarDatos(){
+        // Verificar si el archivo existe
+        string archivo = (nombre+".json");
+        if (File.Exists(archivo)) 
+        {
+            // Abrir archivo JSON
+            string jsonString = File.ReadAllText(archivo);   
+            datosJugador infoJugador = JsonUtility.FromJson<datosJugador>(jsonString);
+            Debug.Log("Aqui viene lo shido");
+            infoJugador.personaje.Find(p => p.Item == "Contraseña").Dato = "Musculo";
+            jsonString = JsonUtility.ToJson(infoJugador);
+            File.WriteAllText(archivo, jsonString);
+           
+
+            
+        }
+        else{
+            
+        }
+    }
+    
+}
+
+[System.Serializable]
+public class Personaje {
+    public string Item;
+    public string Dato;
+}
+
+
+[System.Serializable]
+public class datosJugador{
+    public List<Personaje> personaje;
+}

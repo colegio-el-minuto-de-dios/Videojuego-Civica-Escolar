@@ -35,12 +35,13 @@ public class guardadoDatos : MonoBehaviour
         }
 
         //verificar si hay algo en el nombre
-        if (cuadroNombre != null){
+        if (cuadroNombre.text != null){
             nombre = cuadroNombre.text;
             contraseña = cuadroContraseña.text;  
             crearArchivo();    
             print(nombre);
-   
+            cuadroNombre.text = "".ToString();
+            cuadroContraseña.text = "".ToString();   
         }      
     }
     public static void crearArchivo() 
@@ -63,6 +64,7 @@ public class guardadoDatos : MonoBehaviour
             }
         }
 
+        
     }
 }
 
