@@ -26,10 +26,11 @@ public class leerDatos : MonoBehaviour
             nombre = cuadroNombre.text;
             contraseña = cuadroContraseña.text;    
             recuperarDatos();
-
-            print(nombre); 
+            print("Ejecución terminada"); 
+            cuadroNombre.text = "".ToString();
+            cuadroContraseña.text = "".ToString();
         }  
-        if(cuadroNombre.text == ""){
+        else if(cuadroNombre.text == ""){
             testigo.text = "Ingresa un nombre válido".ToString();  
         }        
   
@@ -41,31 +42,59 @@ public class leerDatos : MonoBehaviour
         if (File.Exists(archivo)) 
         {
             // Abrir archivo JSON
+            /* 
             string jsonString = File.ReadAllText(archivo);   
             datosJugador infoJugador = JsonUtility.FromJson<datosJugador>(jsonString);
-            Debug.Log("Aqui viene lo shido");
-            infoJugador.personaje.Find(p => p.Item == "Contraseña").Dato = "Musculo";
+            Debug.Log("En ejecucion");
+            infoJugador.personaje.Find(p => p.Item == "Contraseña").Dato = "DatoCambiado";
             jsonString = JsonUtility.ToJson(infoJugador);
             File.WriteAllText(archivo, jsonString);
-           
+            */
+            string jsonString = File.ReadAllText(archivo);   
+            datosJugador infoJugador = JsonUtility.FromJson<datosJugador>(jsonString);
+            Debug.Log("En ejecucion");
+            string contraseñaDat = (infoJugador.personaje.Find(p => p.Item == "Contraseña").Dato).ToString();
 
-            
+            if(contraseña == contraseñaDat)
+            {
+                print("Inicio de sesion");                
+            }
+            else{
+                testigo.text = "Contraseña incorrecta".ToString();
+                print("Fallo al iniciar sesion");
+            }
+       
         }
         else{
-            
+            testigo.text = "Esa partida no existe".ToString();            
         }
-    }
-    
+    }    
 }
 
+// Referenciar datos de JSON
 [System.Serializable]
 public class Personaje {
     public string Item;
     public string Dato;
 }
 
+[System.Serializable]
+public class Niveles {
+    public string Isla;
+    public string misionUno;
+    public string misionDos;
+}
 
+[System.Serializable]
+public class NivelesEspeciales {
+    public string Mision;
+    public string estado;
+}
+
+// Recuperar listas
 [System.Serializable]
 public class datosJugador{
     public List<Personaje> personaje;
+    public List<Niveles> niveles;
+    public List<NivelesEspeciales> nivelesEspeciales;
 }
