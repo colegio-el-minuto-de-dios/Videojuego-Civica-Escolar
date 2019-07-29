@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class miniMapa : MonoBehaviour
 {
+
      public Transform jugador;
      public float alturaCamara;
  
     // Start is called before the first frame update
     void Start()
     {
-         
     }
  
     // Update is called once per frame

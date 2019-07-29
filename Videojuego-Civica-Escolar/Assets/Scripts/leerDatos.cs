@@ -6,6 +6,7 @@ using System;
 using System.Text;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class leerDatos : MonoBehaviour
 {
@@ -15,10 +16,15 @@ public class leerDatos : MonoBehaviour
     public static string nombre;
     public static string contraseña;
     public static string genero; 
+    public static string jsonString;
+    public static string archivo;
 
     void Start()
     {
-        testigo.text = "".ToString();                        
+        if(SceneManager.GetActiveScene().name == "Main Menu"){
+            testigo.text = "".ToString();   
+        }
+                             
     }
     public void iniciarPartida(){
         //verificar si hay algo en el nombre
@@ -29,6 +35,7 @@ public class leerDatos : MonoBehaviour
             print("Ejecución terminada"); 
             cuadroNombre.text = "".ToString();
             cuadroContraseña.text = "".ToString();
+            print(nombre);
         }  
         else if(cuadroNombre.text == ""){
             testigo.text = "Ingresa un nombre válido".ToString();  
@@ -38,7 +45,7 @@ public class leerDatos : MonoBehaviour
 
     public void recuperarDatos(){
         // Verificar si el archivo existe
-        string archivo = (nombre+".json");
+        archivo = (nombre+".json");
         if (File.Exists(archivo)) 
         {
             // Abrir archivo JSON
@@ -50,14 +57,16 @@ public class leerDatos : MonoBehaviour
             jsonString = JsonUtility.ToJson(infoJugador);
             File.WriteAllText(archivo, jsonString);
             */
-            string jsonString = File.ReadAllText(archivo);   
+            jsonString = File.ReadAllText(archivo);   
             datosJugador infoJugador = JsonUtility.FromJson<datosJugador>(jsonString);
-            Debug.Log("En ejecucion");
+            // Datos a averiguar
             string contraseñaDat = (infoJugador.personaje.Find(p => p.Item == "Contraseña").Dato).ToString();
+            genero = (infoJugador.personaje.Find(p => p.Item == "Genero").Dato).ToString();   
+                 
 
             if(contraseña == contraseñaDat)
             {
-                print("Inicio de sesion");                
+                SceneManager.LoadScene("Personaje");                
             }
             else{
                 testigo.text = "Contraseña incorrecta".ToString();

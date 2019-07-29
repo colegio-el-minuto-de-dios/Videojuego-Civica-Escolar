@@ -1,0 +1,53 @@
+{
+    "personaje": [
+        {
+            "Item": "Contraseña",
+            "Dato": "Cris"
+        },
+        {
+            "Item": "Genero",
+            "Dato": "mujer"
+        },
+        {
+            "Item": "Piezas",
+            "Dato": "1"
+        }
+    ],
+    "niveles": [
+        {
+            "Isla": "Uno",
+            "misionUno": "Si",
+            "misionDos": "No"
+        },
+        {
+            "Isla": "Dos",
+            "misionUno": "No",
+            "misionDos": "No"
+        },
+        {
+            "Isla": "Tres",
+            "misionUno": "No",
+            "misionDos": "No"
+        },
+        {
+            "Isla": "Cuatro",
+            "misionUno": "No",
+            "misionDos": "No"
+        },
+        {
+            "Isla": "Cinco",
+            "misionUno": "No",
+            "misionDos": "No"
+        }
+    ],
+    "nivelesEspeciales": [
+        {
+            "Mision": "Tutorial",
+            "estado": "No"
+        },
+        {
+            "Mision": "BossFinal",
+            "estado": "No"
+        }
+    ]
+}

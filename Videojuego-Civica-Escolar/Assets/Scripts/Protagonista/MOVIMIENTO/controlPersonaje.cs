@@ -23,12 +23,17 @@ public class controlPersonaje : MonoBehaviour
 
     void Start()
     {
-        jugador = this.GetComponent<CharacterController>();    
+        anim = GetComponentInChildren<Animator>();
+        
+        
     }      
 
     // Update is called once per frame
     void Update()
     {
+        while (anim == false){
+            anim = GetComponentInChildren<Animator>();
+        }
         movimientoHorizontal = Input.GetAxis("Horizontal");
         movimientoVertical = Input.GetAxis("Vertical");    
 

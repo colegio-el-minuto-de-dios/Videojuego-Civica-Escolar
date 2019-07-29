@@ -46,14 +46,14 @@ public class guardadoDatos : MonoBehaviour
     }
     public static void crearArchivo() 
     {
-        rellenoJSON = ("{\n  \"personaje\": [\n    {\"Item\": \"Contraseña\", \"Dato\": \""+ contraseña +"\"},\n    {\"Item\": \"Genero\", \"Dato\": \""+ genero + "\"},\n    {\"Item\": \"Piezas\", \"Dato\": \"\"}\n  ],\n  \"niveles\": [\n    {\"Isla\": \"Uno\", \"misionUno\": \"No\", \"misionDos\": \"No\" },\n    {\"Isla\": \"Dos\", \"misionUno\": \"No\", \"misionDos\": \"No\" },\n    {\"Isla\": \"Tres\", \"misionUno\": \"No\", \"misionDos\": \"No\" },\n    {\"Isla\": \"Cuatro\", \"misionUno\": \"No\", \"misionDos\": \"No\" },\n    {\"Isla\": \"Cinco\", \"misionUno\": \"No\", \"misionDos\": \"No\" }\n  ],\n  \"nivelesEspeciales\":[\n    {\"Mision\": \"Tutorial\", \"estado\": \"No\"},\n    {\"Mision\": \"BossFinal\", \"estado\": \"No\"}\n  ]\n}");
+        rellenoJSON = ("{\n  \"personaje\": [\n    {\"Item\": \"Contraseña\", \"Dato\": \""+ contraseña +"\"},\n    {\"Item\": \"Genero\", \"Dato\": \""+ genero + "\"},\n    {\"Item\": \"Piezas\", \"Dato\": \"0\"}\n  ],\n  \"niveles\": [\n    {\"Isla\": \"Uno\", \"misionUno\": \"No\", \"misionDos\": \"No\" },\n    {\"Isla\": \"Dos\", \"misionUno\": \"No\", \"misionDos\": \"No\" },\n    {\"Isla\": \"Tres\", \"misionUno\": \"No\", \"misionDos\": \"No\" },\n    {\"Isla\": \"Cuatro\", \"misionUno\": \"No\", \"misionDos\": \"No\" },\n    {\"Isla\": \"Cinco\", \"misionUno\": \"No\", \"misionDos\": \"No\" }\n  ],\n  \"nivelesEspeciales\":[\n    {\"Mision\": \"Tutorial\", \"estado\": \"No\"},\n    {\"Mision\": \"BossFinal\", \"estado\": \"No\"}\n  ]\n}");
         Debug.Log(nombre);
         string path = (nombre+".json");
 
         //Si el archivo existe, usar funcion de cargar partida
         if (File.Exists(path)) 
         {
-            return;                                
+                                            
         }
         else{
             using (FileStream fs = File.Create(path, 1024)) 
