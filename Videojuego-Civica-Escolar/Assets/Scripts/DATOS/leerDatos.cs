@@ -66,7 +66,7 @@ public class leerDatos : MonoBehaviour
 
             if(contraseña == contraseñaDat)
             {
-                SceneManager.LoadScene("Personaje");                
+                SceneManager.LoadScene("Diálogos");                
             }
             else{
                 testigo.text = "Contraseña incorrecta".ToString();

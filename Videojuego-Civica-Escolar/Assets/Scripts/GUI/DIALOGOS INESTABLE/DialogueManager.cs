@@ -15,13 +15,24 @@ public class DialogueManager : MonoBehaviour {
 
 	private Queue<string> sentences;
 
+	public GameObject jugador;
+
+	public Animator camaraAnim;
+
+	public GameObject camara;
+	public GameObject camaraJugador;
+
 	// Use this for initialization
 	void Start () {
 		sentences = new Queue<string>();
+		camara.gameObject.SetActive(false);
 	}
 
 	public void StartDialogue (Dialogue dialogue)
 	{
+		
+		jugador.GetComponent<controlPersonaje>().enabled = false;
+
 		NpcAnim.SetBool("estaHablando", true);
 		animator.SetBool("IsOpen", true);
 
@@ -39,6 +50,15 @@ public class DialogueManager : MonoBehaviour {
 
 	public void DisplayNextSentence ()
 	{
+		if (sentences.Count == 3){
+			camara.gameObject.SetActive(true);
+			camaraJugador.gameObject.SetActive(false);
+			camaraAnim.SetBool("desplazamientoCamara",true);
+		}
+		if (sentences.Count == 2){
+			camaraJugador.gameObject.SetActive(true);
+			camara.gameObject.SetActive(false);
+		}
 		if (sentences.Count == 0)
 		{
 			EndDialogue();
@@ -62,6 +82,7 @@ public class DialogueManager : MonoBehaviour {
 
 	void EndDialogue()
 	{
+		jugador.GetComponent<controlPersonaje>().enabled = true;
 		animator.SetBool("IsOpen", false);
 		NpcAnim.SetBool("estaHablando", false);
 	}
