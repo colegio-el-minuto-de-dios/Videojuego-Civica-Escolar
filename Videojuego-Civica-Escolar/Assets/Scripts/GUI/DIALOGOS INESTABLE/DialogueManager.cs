@@ -18,9 +18,11 @@ public class DialogueManager : MonoBehaviour {
 	public GameObject jugador;
 
 	public Animator camaraAnim;
+	public Animator barrera;
 
 	public GameObject camara;
 	public GameObject camaraJugador;
+
 
 	// Use this for initialization
 	void Start () {
@@ -30,7 +32,7 @@ public class DialogueManager : MonoBehaviour {
 
 	public void StartDialogue (Dialogue dialogue)
 	{
-		
+		camaraJugador.GetComponent<CameraFollow>().enabled = false;
 		jugador.GetComponent<controlPersonaje>().enabled = false;
 
 		NpcAnim.SetBool("estaHablando", true);
@@ -61,6 +63,7 @@ public class DialogueManager : MonoBehaviour {
 		}
 		if (sentences.Count == 0)
 		{
+			barrera.Play("Abrir barrera");
 			EndDialogue();
 			return;
 		}
@@ -82,6 +85,7 @@ public class DialogueManager : MonoBehaviour {
 
 	void EndDialogue()
 	{
+		camaraJugador.GetComponent<CameraFollow>().enabled = true;
 		jugador.GetComponent<controlPersonaje>().enabled = true;
 		animator.SetBool("IsOpen", false);
 		NpcAnim.SetBool("estaHablando", false);

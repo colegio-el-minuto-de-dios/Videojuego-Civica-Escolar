@@ -2140,7 +2140,7 @@ MonoBehaviour:
   "cuadroContrase\xF1a": {fileID: 438782912}
   hombreCheck: {fileID: 450209610}
   mujerCheck: {fileID: 1400334220}
-  testigo: {fileID: 17180997}
+  testigo: {fileID: 0}
 --- !u!4 &472841891
 Transform:
   m_ObjectHideFlags: 0

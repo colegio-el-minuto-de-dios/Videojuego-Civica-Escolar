@@ -18,6 +18,7 @@ public class controlPersonaje : MonoBehaviour
     public Camera mainCamera;
     private Vector3 camForward;
     private Vector3 camRight;
+    public static string colisionCajasInformativas;
 
     // Start is called before the first frame update
 
@@ -34,6 +35,11 @@ public class controlPersonaje : MonoBehaviour
         while (anim == false){
             anim = GetComponentInChildren<Animator>();
         }
+
+        /*if(indicacionesTurorial.colision == true){
+            anim.SetBool("forzarEstatico", true);
+        } */
+
         movimientoHorizontal = Input.GetAxis("Horizontal");
         movimientoVertical = Input.GetAxis("Vertical");    
 
