@@ -1,0 +1,23 @@
+# Exported from 3D Builder
+
+newmtl Default_0
+Kd 0.737255 0.737255 0.737255
+
+newmtl Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Texturas rotonda\Piso rotunda.png
+
+newmtl Mat_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Texturas rotonda\20110812103000370286.jpg
+
+newmtl Mat_2
+Kd 1.000000 1.000000 1.000000
+map_Kd Texturas rotonda\Columna.png
+
+newmtl Mat_3
+Kd 1.000000 1.000000 1.000000
+map_Kd Texturas rotonda\Roof.jpg
+
+newmtl Turquoise_0
+Kd 0.000000 0.627451 0.909804
