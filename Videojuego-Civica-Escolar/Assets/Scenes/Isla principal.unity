@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -414,13 +414,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2313613322566120660, guid: ef1b887695b94e440ad7c4c8c412b986,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313613322566120660, guid: ef1b887695b94e440ad7c4c8c412b986,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11564579}
+    - target: {fileID: 2313613322566120660, guid: ef1b887695b94e440ad7c4c8c412b986,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayNextSentence
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313613322566120660, guid: ef1b887695b94e440ad7c4c8c412b986,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313613322566120660, guid: ef1b887695b94e440ad7c4c8c412b986,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313613322566120660, guid: ef1b887695b94e440ad7c4c8c412b986,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1116258780}
     - target: {fileID: 2313613322566120660, guid: ef1b887695b94e440ad7c4c8c412b986,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: MostrarMapa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313613322566120660, guid: ef1b887695b94e440ad7c4c8c412b986,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2313613324277879794, guid: ef1b887695b94e440ad7c4c8c412b986,
         type: 3}
@@ -687,6 +717,28 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1116258780}
         m_MethodName: CerrarMapa
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11564579}
+        m_MethodName: DisplayNextSentence
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11564579}
+        m_MethodName: EndDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1364,6 +1416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.099
+      objectReference: {fileID: 0}
+    - target: {fileID: 772549635434070810, guid: 37d5759e31bce3145bdc6f387bb3c2d6,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3770236913512010508, guid: 37d5759e31bce3145bdc6f387bb3c2d6,
         type: 3}

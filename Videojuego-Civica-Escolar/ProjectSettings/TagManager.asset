@@ -8,6 +8,7 @@ TagManager:
   - Death
   - Enemigo
   - CajasInformativas
+  - Partitura
   layers:
   - Default
   - TransparentFX

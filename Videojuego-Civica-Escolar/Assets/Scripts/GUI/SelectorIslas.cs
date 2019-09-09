@@ -9,6 +9,9 @@ public class SelectorIslas : MonoBehaviour
     public GameObject habilitarPanel;
     public GameObject camaraJugador;
     public GameObject camaraPanel;
+
+
+
     public void MostrarMapa(){
         
         dialogos.SetActive(false);
@@ -26,6 +29,8 @@ public class SelectorIslas : MonoBehaviour
         camaraJugador.SetActive(true);
         camaraPanel.SetActive(false);
         habilitarPanel.SetActive(true);
+        
         FindObjectOfType<DialogueManagerGeneral>().DisplayNextSentence();
+        
     }
 }

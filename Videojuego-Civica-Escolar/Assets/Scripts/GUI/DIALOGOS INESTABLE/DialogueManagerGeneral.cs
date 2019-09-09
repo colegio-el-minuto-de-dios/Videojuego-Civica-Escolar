@@ -19,6 +19,7 @@ public class DialogueManagerGeneral : MonoBehaviour
 
 	public GameObject jugador;
 	public GameObject camaraJugador;
+	
  
 
 
@@ -76,8 +77,10 @@ public class DialogueManagerGeneral : MonoBehaviour
 	{
 		camaraJugador.GetComponent<CameraFollow>().enabled = true;
 		jugador.GetComponent<controlPersonaje>().enabled = true;
+		print("dude ya esta");
 		animator.SetBool("IsOpen", false);
 		NpcAnim.SetBool("estaHablando", false);
+		
 	}
 
     

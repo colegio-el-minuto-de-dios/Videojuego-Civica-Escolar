@@ -14,10 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Personaje.unity
     guid: ebf1c0623fdd83840a7dc265b8692c3c
-  - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: d7aae2d4b2dc6ee4fb09524c6835575d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 728977b37a482404a8c1b70d7053d337
+  - enabled: 1
+    path: "Assets/Scenes/Isla musical/Escenas/Misi\xF3n A/Isla musical.unity"
+    guid: dae51d6d2e967a748bb2f6eb36f34591
+  - enabled: 1
+    path: "Assets/Scenes/Isla musical/Escenas/Misi\xF3n A/OrganizarPartituras.unity"
+    guid: b48ca3c76494dfb4795054fcb427b2bf
   m_configObjects: {}
