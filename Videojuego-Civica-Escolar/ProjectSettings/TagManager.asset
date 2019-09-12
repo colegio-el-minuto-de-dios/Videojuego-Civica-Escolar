@@ -9,6 +9,8 @@ TagManager:
   - Enemigo
   - CajasInformativas
   - Partitura
+  - Fila
+  - NPC
   layers:
   - Default
   - TransparentFX
