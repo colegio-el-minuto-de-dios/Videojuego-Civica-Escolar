@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
@@ -19,10 +20,22 @@ public class contadorPartituras : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        contadorPartiturasGUI.text = (numeroPartituras).ToString();
+        
+        if(SceneManager.GetActiveScene().name == "Isla musical"){
+            contadorPartiturasGUI.text = (numeroPartituras).ToString();
+            if (numeroPartituras == 6){
+                puertasJefes.SetBool("estanDesbloqueadas", true);
+            } 
+        }
 
-        if (numeroPartituras == 6){
-            puertasJefes.SetBool("estanDesbloqueadas", true);
-        }        
+        if(SceneManager.GetActiveScene().name == "OrganizarPartituras"){
+            contadorPartiturasGUI.text = ("Contador partituras:"+(numeroPartituras).ToString()+"/6");
+            
+                
+            
+        }
+
+
+               
     }
 }
