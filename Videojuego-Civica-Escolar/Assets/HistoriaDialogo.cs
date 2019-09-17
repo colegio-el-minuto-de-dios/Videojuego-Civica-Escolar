@@ -12,19 +12,20 @@ public class HistoriaDialogo : MonoBehaviour
     public Animator animador;
 	
 	private Queue<string> sentences;
+	
+	public float timmer;
+
+	public string finHistoria;
 
 	// Use this for initialization
 	void Start () {
 		sentences = new Queue<string>();
-		
+		finHistoria = "No";
+		timmer = 0;
 	}
 
 	public void StartDialogue (Dialogo dialogue)
-	{		
-		
-
-		
-
+	{	
 		sentences.Clear();
 
 		foreach (string sentence in dialogue.sentences)
@@ -41,8 +42,8 @@ public class HistoriaDialogo : MonoBehaviour
 		if (sentences.Count == 0)
 		{
             animador.SetBool("iniciarTutorial",true);
-            SceneManager.LoadScene("Tutorial", LoadSceneMode.Additive);            			
-			EndDialogue();
+              
+			finHistoria = "Si";
 			return;
 		}
 
@@ -58,6 +59,15 @@ public class HistoriaDialogo : MonoBehaviour
 		{
 			dialogueText.text += letter;
 			yield return null;
+		}
+	}
+
+	void Update(){
+		if (finHistoria == "Si"){
+			timmer += Time.deltaTime;			
+			if(timmer > 4){
+				SceneManager.LoadScene("Tutorial");     
+			}
 		}
 	}
 

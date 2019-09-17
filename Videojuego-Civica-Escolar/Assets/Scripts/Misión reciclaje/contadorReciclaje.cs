@@ -31,5 +31,9 @@ public class contadorReciclaje : MonoBehaviour
         }
     }
 
+    public void DeshabilitarBoton(){
+        botonLanzarMisil.interactable = false;
+    }
+
     
 }
