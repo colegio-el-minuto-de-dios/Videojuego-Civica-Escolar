@@ -13,6 +13,10 @@ public class caminataAleatoria : MonoBehaviour
     private Transform target;
     private NavMeshAgent agent;
     private float timer;
+
+    void Start(){
+        GetComponent<UnityEngine.AI.NavMeshAgent>().speed = 3.5f;
+    }
  
     // Use this for initialization
     void OnEnable () {
@@ -22,6 +26,7 @@ public class caminataAleatoria : MonoBehaviour
  
     // Update is called once per frame
     void Update () {
+        GetComponent<UnityEngine.AI.NavMeshAgent>().speed = 3.5f;
         timer += Time.deltaTime;
  
         if (timer >= wanderTimer) {

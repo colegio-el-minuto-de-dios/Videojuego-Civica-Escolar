@@ -16,6 +16,7 @@ public class leerDatos : MonoBehaviour
     public static string nombre;
     public static string contraseña;
     public static string genero; 
+    public static string tutorial;
     public static string jsonString;
     public static string archivo;
 
@@ -66,11 +67,17 @@ public class leerDatos : MonoBehaviour
 
             if(contraseña == contraseñaDat)
             {
-                SceneManager.LoadScene("Historia");                
+                tutorial = (infoJugador.nivelesEspeciales.Find(p => p.Mision == "Tutorial").estado).ToString();
+                if (tutorial == "No"){
+                    SceneManager.LoadScene("Historia");  
+                }
+                else{
+                    SceneManager.LoadScene("Isla principal");
+                }
+                              
             }
             else{
                 testigo.text = "Contraseña incorrecta".ToString();
-                print("Fallo al iniciar sesion");
             }
        
         }

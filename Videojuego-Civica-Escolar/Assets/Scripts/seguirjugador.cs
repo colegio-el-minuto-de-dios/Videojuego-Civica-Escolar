@@ -6,6 +6,9 @@ public class seguirjugador : MonoBehaviour {
     public Transform jugador;
     UnityEngine.AI.NavMeshAgent enemigo;
     private bool dentro = false;
+    float distancia;
+    public GameObject jugadorGO;
+    public Animator anim;
 
 	// Use this for initialization
 	void Start () {
@@ -25,6 +28,7 @@ public class seguirjugador : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            GetComponent<UnityEngine.AI.NavMeshAgent>().speed = 3.5f;
             dentro = false;
         }
     }
@@ -32,12 +36,23 @@ public class seguirjugador : MonoBehaviour {
 	void Update () {
 		
         if (!dentro)
-        {
+        { 
+            print("Distancia" + distancia);
+            
             enemigo.destination = jugador.position;
+            distancia = Vector3.Distance(transform.position, jugadorGO.transform.position);
+            if ((distancia < 1.5f) | (distancia >= 3f)){
+                GetComponent<UnityEngine.AI.NavMeshAgent>().speed = 3.5f;
+            }
+            if ((distancia >= 1.5f) & (distancia < 3f)){
+                GetComponent<UnityEngine.AI.NavMeshAgent>().speed = 6.5f;
+            }
+            
         }
         if (dentro)
         {
             enemigo.destination = this.transform.position;
         }
+        
 	}
 }
