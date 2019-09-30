@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnPoint : MonoBehaviour
 {
     public GameObject jugador;
+    public ParticleSystem particula;
     public static Vector3 posicion;
     public static Transform spawnPointTranslation;
 
@@ -14,6 +15,9 @@ public class SpawnPoint : MonoBehaviour
             jugador.GetComponent<controlPersonaje>().enabled=true;
             posicion = GameObject.Find("SpawnPoint").transform.position;            
             print("posicion " + posicion);
+            particula.Play();
+            
+
         }
     }
 }

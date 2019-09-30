@@ -6,6 +6,8 @@ public class ItemVida : MonoBehaviour
 {
     public int salud;
     public float velocidad;
+    public GameObject corazon;
+    public ParticleSystem particula;
     // Start is called before the first frame update
 
     void Update(){
@@ -14,9 +16,10 @@ public class ItemVida : MonoBehaviour
 
     void OnTriggerEnter(Collider other) {
         if (other.tag == "Player"){
-            sistemaVidas.salud += salud;
-            Destroy(gameObject);
-            print("");
+            particula.Play();
+            sistemaVidas.salud += salud;            
+            Destroy(corazon);
+            
         }
         
     }

@@ -6,11 +6,14 @@ public class arosReciclaje : MonoBehaviour
 {
     public string tipoDesecho;
     public static string aroSeleccionado;
-
+    public ParticleSystem explosion;
     void Start(){
         aroSeleccionado = "";
     }
     void OnTriggerEnter(Collider other){
+        if(other.name == "NarizMisil"){
+            explosion.Play();
+        }
         if(other.name != "Misil"){
             if (other.GetComponent<residuos>().tipoBasura == tipoDesecho){
             Destroy(other.gameObject);
@@ -19,6 +22,7 @@ public class arosReciclaje : MonoBehaviour
             other.GetComponent<residuos>().coincidencia = "no";
         }
         }
+        
         
     }
 

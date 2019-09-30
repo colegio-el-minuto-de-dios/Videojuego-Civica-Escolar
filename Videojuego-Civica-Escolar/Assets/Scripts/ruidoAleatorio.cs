@@ -11,14 +11,14 @@ public class ruidoAleatorio : MonoBehaviour
     public GameObject origenRuidoDos;
     public GameObject origenRuidoTres;
     public GameObject origenRuidoCuatro;
-    public GameObject origenRuidoCinco;
+    
     // Start is called before the first frame update
     void Start()
     {
         AparicionAleatoria();        
     }
     
-    void AparicionAleatoria(){
+    public void AparicionAleatoria(){
         
         if((listaNumeros.Count) <5){
             numeroGenerado = Random.Range(1,5);
@@ -39,9 +39,6 @@ public class ruidoAleatorio : MonoBehaviour
                     break;
                     case 4:
                     origenRuidoCuatro.SetActive(true);
-                    break;
-                    case 5:
-                    origenRuidoCinco.SetActive(true);
                     break;
                     
                 }

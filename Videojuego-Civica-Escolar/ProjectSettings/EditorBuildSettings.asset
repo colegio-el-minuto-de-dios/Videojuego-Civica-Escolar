@@ -29,7 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Historia.unity
     guid: 0b1df6ae130545d419ffca1dcf599479
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: 728977b37a482404a8c1b70d7053d337
+    path: Assets/Scenes/Isla biblioteca/Isla biblioteca.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Isla biblioteca/IB Retos.unity
+    guid: 345cb6e9904154b4fb4b7cece1ef8cd6
+  - enabled: 1
+    path: Assets/Scenes/Pantalla perdiste.unity
+    guid: aaa921331f35e8c4c8f9ec719a226e4d
   m_configObjects: {}

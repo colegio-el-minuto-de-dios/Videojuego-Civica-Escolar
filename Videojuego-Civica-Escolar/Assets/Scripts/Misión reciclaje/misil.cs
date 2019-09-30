@@ -12,6 +12,7 @@ public class misil : MonoBehaviour
     public float speed;
     public bool misilLanzado;
     public float tiempo;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -42,15 +43,17 @@ public class misil : MonoBehaviour
         if(other.name == "SP-Misil"){
             contadorReciclaje.itemsMisil = 0;            
             puntoOrigenGO.SetActive(false);
-            GetComponent<Renderer>().enabled = true;
+            //GetComponent<Renderer>().enabled = true;
         }
         if((other.name == "Plastico") | (other.name == "Papel") | (other.name == "Organico")){
+            
             arosReciclaje.aroSeleccionado = null;
             puntoOrigenGO.SetActive(true);            
             contadorReciclaje.itemsMisil = 0;
             transform.position= puntoOrigen.position;
             misilLanzado = false;
-
+            
+        
 
         }
     }

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class controlPersonaje : MonoBehaviour
 {
-    public float velocidadCaminar;
-    public float velocidadCorrer;
+    public static float velocidadCaminar = 2;
+    public static float velocidadCorrer = 5;
     public float movimientoHorizontal;
     public float movimientoVertical;
     public float fuerzaSalto;
@@ -34,6 +34,7 @@ public class controlPersonaje : MonoBehaviour
     {
         while (anim == false){
             anim = GetComponentInChildren<Animator>();
+            
         }
 
         /*if(indicacionesTurorial.colision == true){

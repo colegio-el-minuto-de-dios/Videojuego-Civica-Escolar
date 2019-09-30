@@ -2245,6 +2245,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nave
       objectReference: {fileID: 0}
+    - target: {fileID: -8205571362833684013, guid: 7e8ca77a63448c9419eae1575d4c435b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
+    - target: {fileID: -7447799111397994335, guid: 7e8ca77a63448c9419eae1575d4c435b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
+    - target: {fileID: -7030357142099283172, guid: 7e8ca77a63448c9419eae1575d4c435b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
+    - target: {fileID: -5018841974410913201, guid: 7e8ca77a63448c9419eae1575d4c435b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
     - target: {fileID: -4216859302048453862, guid: 7e8ca77a63448c9419eae1575d4c435b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2315,37 +2335,17 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 7.546855
       objectReference: {fileID: 0}
-    - target: {fileID: -1315595749860578657, guid: 7e8ca77a63448c9419eae1575d4c435b,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: dc880fef3d6f9854aa527bc2d90a2e8e, type: 2}
-    - target: {fileID: -8205571362833684013, guid: 7e8ca77a63448c9419eae1575d4c435b,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
     - target: {fileID: -1433199077110101035, guid: 7e8ca77a63448c9419eae1575d4c435b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
-    - target: {fileID: -7030357142099283172, guid: 7e8ca77a63448c9419eae1575d4c435b,
+    - target: {fileID: -1315595749860578657, guid: 7e8ca77a63448c9419eae1575d4c435b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
-    - target: {fileID: -5018841974410913201, guid: 7e8ca77a63448c9419eae1575d4c435b,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
+      objectReference: {fileID: 2100000, guid: dc880fef3d6f9854aa527bc2d90a2e8e, type: 2}
     - target: {fileID: -1067336111613909141, guid: 7e8ca77a63448c9419eae1575d4c435b,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d4bcae2dc42eb8e4fb24d2ab3af9b8ef, type: 2}
-    - target: {fileID: -7447799111397994335, guid: 7e8ca77a63448c9419eae1575d4c435b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3700,27 +3700,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajas
       objectReference: {fileID: 0}
-    - target: {fileID: 8647755491145016072, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
+    - target: {fileID: -7905993234263241858, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -5601324876185794806, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
-        type: 3}
-      propertyPath: m_Name
-      value: Barril
       objectReference: {fileID: 0}
     - target: {fileID: -7061531264059490546, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
         type: 3}
       propertyPath: m_Name
       value: Caja
       objectReference: {fileID: 0}
-    - target: {fileID: -5080357259276577765, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
+    - target: {fileID: -5601324876185794806, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_Name
+      value: Barril
       objectReference: {fileID: 0}
-    - target: {fileID: -7905993234263241858, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
+    - target: {fileID: -5080357259276577765, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3849,6 +3844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647755491145016072, guid: d4e717cb02711ce4ab2b4e7c777a9c81,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4e717cb02711ce4ab2b4e7c777a9c81, type: 3}
