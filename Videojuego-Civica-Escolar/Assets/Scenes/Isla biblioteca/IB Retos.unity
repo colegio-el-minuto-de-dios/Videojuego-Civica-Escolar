@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028364, g: 0.22571474, b: 0.30692288, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.22571447, b: 0.30692196, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -479,8 +479,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &73038624
 GameObject:
@@ -1215,7 +1215,7 @@ Transform:
   m_GameObject: {fileID: 161762945}
   m_LocalRotation: {x: -0, y: -0.39169493, z: -0, w: 0.9200952}
   m_LocalPosition: {x: -51.96164, y: 12.704913, z: -53.38069}
-  m_LocalScale: {x: 334.48096, y: 162.7146, z: 334.48096}
+  m_LocalScale: {x: 335, y: 163, z: 335}
   m_Children: []
   m_Father: {fileID: 1292305417}
   m_RootOrder: 1
@@ -1501,8 +1501,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &211797815
 GameObject:
@@ -1532,7 +1532,7 @@ Transform:
   m_GameObject: {fileID: 211797815}
   m_LocalRotation: {x: -0, y: -0.39169493, z: -0, w: 0.9200952}
   m_LocalPosition: {x: -34.416306, y: 12.704913, z: -35.135647}
-  m_LocalScale: {x: 334.48096, y: 162.7146, z: 334.48096}
+  m_LocalScale: {x: 335, y: 163, z: 335}
   m_Children: []
   m_Father: {fileID: 1292305417}
   m_RootOrder: 0
@@ -1622,7 +1622,7 @@ Transform:
   m_GameObject: {fileID: 213567866}
   m_LocalRotation: {x: -0, y: -0.39169493, z: -0, w: 0.9200952}
   m_LocalPosition: {x: -41.962082, y: 12.704913, z: -34.559856}
-  m_LocalScale: {x: 334.48096, y: 162.7146, z: 334.48096}
+  m_LocalScale: {x: 335, y: 163, z: 335}
   m_Children: []
   m_Father: {fileID: 1292305417}
   m_RootOrder: 4
@@ -1712,7 +1712,7 @@ Transform:
   m_GameObject: {fileID: 217354283}
   m_LocalRotation: {x: -0, y: -0.39169493, z: -0, w: 0.9200952}
   m_LocalPosition: {x: -52.32698, y: 12.704913, z: -37.7763}
-  m_LocalScale: {x: 334.48096, y: 162.7146, z: 334.48096}
+  m_LocalScale: {x: 335, y: 163, z: 335}
   m_Children: []
   m_Father: {fileID: 1292305417}
   m_RootOrder: 2
@@ -1893,8 +1893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!65 &263787071
 BoxCollider:
@@ -3202,7 +3202,7 @@ Transform:
   m_GameObject: {fileID: 744247679}
   m_LocalRotation: {x: -0, y: -0.39169493, z: -0, w: 0.9200952}
   m_LocalPosition: {x: -45.330544, y: 12.704913, z: -38.001175}
-  m_LocalScale: {x: 334.48096, y: 162.7146, z: 334.48096}
+  m_LocalScale: {x: 335, y: 163, z: 335}
   m_Children: []
   m_Father: {fileID: 1292305417}
   m_RootOrder: 5
@@ -3902,8 +3902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &815663121
 GameObject:
@@ -4024,8 +4024,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &825520828
 GameObject:
@@ -4712,8 +4712,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &967599266
 GameObject:
@@ -5039,7 +5039,7 @@ Transform:
   m_GameObject: {fileID: 988255172}
   m_LocalRotation: {x: -0, y: -0.39169493, z: -0, w: 0.9200952}
   m_LocalPosition: {x: -58.987015, y: 12.704913, z: -53.21666}
-  m_LocalScale: {x: 334.48096, y: 162.7146, z: 334.48096}
+  m_LocalScale: {x: 335, y: 163, z: 335}
   m_Children: []
   m_Father: {fileID: 1292305417}
   m_RootOrder: 7
@@ -5220,8 +5220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &1058115652
 GameObject:
@@ -7037,8 +7037,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &1477637838
 GameObject:
@@ -7752,8 +7752,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &1550835147
 GameObject:
@@ -7992,8 +7992,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &1566700188
 GameObject:
@@ -8867,8 +8867,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &1790799260
 GameObject:
@@ -9429,7 +9429,7 @@ Transform:
   m_GameObject: {fileID: 1950654146}
   m_LocalRotation: {x: -0, y: -0.39169493, z: -0, w: 0.9200952}
   m_LocalPosition: {x: -35.62092, y: 12.704913, z: -27.473984}
-  m_LocalScale: {x: 334.48096, y: 162.7146, z: 334.48096}
+  m_LocalScale: {x: 335, y: 163, z: 335}
   m_Children: []
   m_Father: {fileID: 1292305417}
   m_RootOrder: 3
@@ -9650,7 +9650,7 @@ Transform:
   m_GameObject: {fileID: 1964914860}
   m_LocalRotation: {x: -0, y: -0.39169493, z: -0, w: 0.9200952}
   m_LocalPosition: {x: -52.227028, y: 12.704913, z: -45.97191}
-  m_LocalScale: {x: 334.48096, y: 162.7146, z: 334.48096}
+  m_LocalScale: {x: 335, y: 163, z: 335}
   m_Children: []
   m_Father: {fileID: 1292305417}
   m_RootOrder: 6
@@ -10011,8 +10011,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &2129743258
 GameObject:
@@ -10133,8 +10133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &2130845643
 GameObject:
@@ -10560,8 +10560,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!4 &757048197519313299
 Transform:
@@ -11910,8 +11910,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporizador: 0
-  "tama\xF1oXZ": 0
-  "tama\xF1oY": 0
+  "tama\xF1oXZ": 335
+  "tama\xF1oY": 135
   estaPisando: 0
 --- !u!1 &7649926527684197566
 GameObject:
