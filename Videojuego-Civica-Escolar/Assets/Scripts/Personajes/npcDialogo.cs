@@ -14,6 +14,7 @@ public class npcDialogo : MonoBehaviour
            cuadroDialogo.SetActive(true);
            Animador.SetBool("enCercania", true);
            Cursor.lockState = CursorLockMode.None;
+           Cursor.visible = true;
 
        }
    }
@@ -24,6 +25,7 @@ public class npcDialogo : MonoBehaviour
            cuadroDialogo.SetActive(false);
            Animador.SetBool("enCercania", false);
            Cursor.lockState = CursorLockMode.Locked;
+           Cursor.visible = false;
        }       
    }
 }

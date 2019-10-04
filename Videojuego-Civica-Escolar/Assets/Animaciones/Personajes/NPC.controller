@@ -100,7 +100,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 247f0f152563de44d8a0906ce5ab6c64,
+  m_Motion: {fileID: -203655887218126122, guid: a35a4afda0bfba942a1d8aece83ff5eb,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -153,7 +153,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 3c2d22db15220d24e9a1893c77f46e2b,
+  m_Motion: {fileID: -203655887218126122, guid: 60b008cbff26ded41bd00f8837d8596e,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -174,13 +174,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: estaHablando
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -215,7 +215,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 80316df98cd721d45924e3ad3de987d1,
+  m_Motion: {fileID: -203655887218126122, guid: 354374c7311258d4bb3c5fa6527c80ec,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
