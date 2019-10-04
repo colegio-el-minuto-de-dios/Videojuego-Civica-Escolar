@@ -7,10 +7,12 @@ public class residuos : MonoBehaviour
     
     public Transform puntoOrigen;
     public Transform misil;
+    public Transform mano;
     public string clic = "no";
     public float speed;
     public string tipoBasura;
     public string coincidencia;
+    public GameObject etiqueta;
 
     // Start is called before the first frame update
 
@@ -19,7 +21,7 @@ public class residuos : MonoBehaviour
     {
         if (clic == "si"){
             float step = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, misil.position, step);             
+            transform.position = Vector3.MoveTowards(transform.position, mano.position, step);             
                  
         }  
 
@@ -39,8 +41,8 @@ public class residuos : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        if(other.name == "Misil"){
         
+        if(other.name == "ManoDer"){        
         transform.position = misil.position;
         transform.parent = misil.transform; 
         clic = "no";
