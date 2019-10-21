@@ -65,6 +65,28 @@ public class progressIndicator : MonoBehaviour
         actualizarProgreso();
     }
 
+    public void Tutorial(){
+        // Abrir archivo JSON
+        datosJugador infoJugador = JsonUtility.FromJson<datosJugador>(jsonString);
+        
+        // Sumar una unidad a la variable Piezas del JSON
+        datoNivel = infoJugador.nivelesEspeciales.Find(p => p.Mision == ("Tutorial")).estado = ("Si");
+        jsonString = JsonUtility.ToJson(infoJugador, true);
+        File.WriteAllText(archivo, jsonString);  
+        actualizarProgreso();
+    }
+
+    public void BossFinal(){
+        // Abrir archivo JSON
+        datosJugador infoJugador = JsonUtility.FromJson<datosJugador>(jsonString);
+        
+        // Sumar una unidad a la variable Piezas del JSON
+        datoNivel = infoJugador.nivelesEspeciales.Find(p => p.Mision == ("BossFinal")).estado = ("Si");
+        jsonString = JsonUtility.ToJson(infoJugador, true);
+        File.WriteAllText(archivo, jsonString);  
+        actualizarProgreso();
+    }
+
 }
 
 

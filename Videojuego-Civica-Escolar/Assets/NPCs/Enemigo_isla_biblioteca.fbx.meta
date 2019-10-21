@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 3cef197663c77f5409010b00d5908003
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bodymat
+    second: {fileID: 2100000, guid: dd9a11d2ac4087d42be7791db1ffb123, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottommat
+    second: {fileID: 2100000, guid: 4f6294d79f68f3240865259900555271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hairmat
+    second: {fileID: 2100000, guid: fa0e4c54e8307494c96a63280017bbad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoesmat
+    second: {fileID: 2100000, guid: ac3478767ada1e24bba8f0b83a3baec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Topmat
+    second: {fileID: 2100000, guid: 7a300791b603d074b99700a570ed4059, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Body_Diffuse
+    second: {fileID: 2800000, guid: fc4950414ad636848bb774894c21f04d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Body_Gloss
+    second: {fileID: 2800000, guid: c852ef7c8ab4bae498b63613d8a26af8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Body_Normal
+    second: {fileID: 2800000, guid: 96e4de67d1c08e1419ee5f00082cdfad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Body_Opacity
+    second: {fileID: 2800000, guid: cee977c83c2a7fd499c4ca1c88821bc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Body_Specular
+    second: {fileID: 2800000, guid: bbf19f6c7229635488e4a3c1815e3ff8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Bottom_Diffuse
+    second: {fileID: 2800000, guid: 2deed326425fd0b4cbbc9727013dd36f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Bottom_Gloss
+    second: {fileID: 2800000, guid: 8f7027d8f07f2804f90b5a2273eb078e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Bottom_Normal
+    second: {fileID: 2800000, guid: 0af834a9288e7dc48939831ca99774e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Bottom_Opacity
+    second: {fileID: 2800000, guid: f991baf3ea95a7f4b8ca071f2763a2c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Bottom_Specular
+    second: {fileID: 2800000, guid: 4f21bea8ba8720146b91c9f72b0f1f60, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Hair_Diffuse
+    second: {fileID: 2800000, guid: f802fcf6f7becdf4cb1a90b9d21818c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Hair_Gloss
+    second: {fileID: 2800000, guid: 04f0ec2937a5d9e4bac66b5ceb6295a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Hair_Normal
+    second: {fileID: 2800000, guid: 3649f268fab17ef44b5f32efd754e39e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Hair_Opacity
+    second: {fileID: 2800000, guid: 34c2ae7f30b63894f86de3c1c2c63743, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Hair_Specular
+    second: {fileID: 2800000, guid: 6271f22c658afd3478420669039909bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Shoes_Diffuse
+    second: {fileID: 2800000, guid: 70ffa72c838c07f4aa0a8e836a4cc09e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Shoes_Gloss
+    second: {fileID: 2800000, guid: ef542985178fda4489e0240bf13c1ff8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Shoes_Normal
+    second: {fileID: 2800000, guid: e39480a7f9b15a045a33c17780aed23e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Shoes_Opacity
+    second: {fileID: 2800000, guid: 504d1c3e1d719a44e8a6d9862283cec2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Shoes_Specular
+    second: {fileID: 2800000, guid: f6ecdd94c76170945bda8726459b0ad3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Top_Diffuse
+    second: {fileID: 2800000, guid: e24c0e4f3b95fdf46bf151e5898fd704, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Top_Gloss
+    second: {fileID: 2800000, guid: 7a2d9bc8d7b19d948ad21096fdc2e0d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Top_Normal
+    second: {fileID: 2800000, guid: 903d078294a179a46bb958f079f6c2e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Top_Opacity
+    second: {fileID: 2800000, guid: 57babcd1d1309d14da2cffe1e39114e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enemigo_isla_biblioteca_Top_Specular
+    second: {fileID: 2800000, guid: 41678d86214424144ae982041f019739, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

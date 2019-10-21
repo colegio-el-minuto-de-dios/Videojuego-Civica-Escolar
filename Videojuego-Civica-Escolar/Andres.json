@@ -1,0 +1,18 @@
+{
+  "personaje": [
+    {"Item": "Contraseña", "Dato": "sarmi"},
+    {"Item": "Genero", "Dato": "hombre"},
+    {"Item": "Piezas", "Dato": "0"}
+  ],
+  "niveles": [
+    {"Isla": "Uno", "misionUno": "No", "misionDos": "No" },
+    {"Isla": "Dos", "misionUno": "No", "misionDos": "No" },
+    {"Isla": "Tres", "misionUno": "No", "misionDos": "No" },
+    {"Isla": "Cuatro", "misionUno": "No", "misionDos": "No" },
+    {"Isla": "Cinco", "misionUno": "No", "misionDos": "No" }
+  ],
+  "nivelesEspeciales":[
+    {"Mision": "Tutorial", "estado": "No"},
+    {"Mision": "BossFinal", "estado": "No"}
+  ]
+}

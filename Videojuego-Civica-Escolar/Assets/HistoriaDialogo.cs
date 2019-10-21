@@ -44,6 +44,7 @@ public class HistoriaDialogo : MonoBehaviour
             animador.SetBool("iniciarTutorial",true);
               
 			finHistoria = "Si";
+			StartCoroutine(LoadScene());
 			return;
 		}
 
@@ -64,19 +65,31 @@ public class HistoriaDialogo : MonoBehaviour
 
 	void Update(){
 		if (finHistoria == "Si"){
-			timmer += Time.deltaTime;			
-			if(timmer > 4){
-				SceneManager.LoadScene("Tutorial");     
-			}
+			timmer += Time.deltaTime;		
+			
 		}
 	}
 
-	void EndDialogue()
-	{
-		
-		
-		
-	}
+	
+
+	IEnumerator LoadScene(){
+        yield return null;
+
+        //Begin to load the Scene you specify
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync("Tutorial");
+        //Don't let the Scene activate until you allow it to
+        asyncOperation.allowSceneActivation = false;
+        
+        
+        while (!asyncOperation.isDone){
+            if ((asyncOperation.progress >= 0.9f) && (timmer > 8f))
+            {
+                asyncOperation.allowSceneActivation = true;   
+            }
+
+            yield return null;
+        }
+    }
 
 }
     

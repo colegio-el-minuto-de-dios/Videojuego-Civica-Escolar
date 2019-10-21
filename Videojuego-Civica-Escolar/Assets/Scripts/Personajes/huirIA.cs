@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class huirIA : MonoBehaviour
 {
     private NavMeshAgent _agent;
-    private Animator _animator;
+    public Animator _animator;
     public GameObject Player;
     public float EnemyDistanceRun = 4.0f;
     private BoxCollider detectorCaptura; 
@@ -14,8 +14,7 @@ public class huirIA : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _agent = GetComponent<NavMeshAgent>();
-        _animator = GetComponent<Animator>();
+        _agent = GetComponent<NavMeshAgent>();        
         detectorCaptura = GetComponent<BoxCollider>();
         
     }
@@ -23,10 +22,11 @@ public class huirIA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(transform.position, Player.transform.position);
+        float distance = (transform.position - Player.transform.position).sqrMagnitude;
+        float EnemyDistanceRunSqrt = EnemyDistanceRun * EnemyDistanceRun;
         Debug.Log("distancia " + distance);
 
-        if (distance < EnemyDistanceRun)
+        if (distance < EnemyDistanceRunSqrt)
         {
             Vector3 dirToPlayer = transform.position - Player.transform.position;
             Vector3 newPos = transform.position + dirToPlayer;
@@ -45,6 +45,7 @@ public class huirIA : MonoBehaviour
             _agent.enabled = false;
             contadorCapturados.numeroCapturados += 1;
             detectorCaptura.enabled = false;
+            sistemaReflexion.puntajeActual += 1;
         }
 
         

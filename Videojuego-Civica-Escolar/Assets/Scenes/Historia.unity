@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -466,7 +466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.4, y: -0.3999939}
+  m_AnchoredPosition: {x: 13.400024, y: -0.3999939}
   m_SizeDelta: {x: 68.8, y: 2.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &418388449
@@ -694,6 +694,7 @@ RectTransform:
   - {fileID: 288627573}
   - {fileID: 1083205366}
   - {fileID: 1332414876}
+  - {fileID: 671316840}
   m_Father: {fileID: 1685242104}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -787,31 +788,108 @@ GameObject:
   - component: {fileID: 671316840}
   - component: {fileID: 671316839}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Sonido
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &671316839
-Animator:
-  serializedVersion: 3
+--- !u!82 &671316839
+AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671316838}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 07fa65721b6f7974ca133b2f8ae2b6ab, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &671316840
 Transform:
   m_ObjectHideFlags: 0
@@ -819,11 +897,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671316838}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 470.8187, y: 235.6359, z: 417.5354}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 165.56506, y: 60.43077, z: 3.3488374}
+  m_LocalScale: {x: 1.1162791, y: 1.1162791, z: 1.1162791}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 531401967}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &893384433
@@ -1340,21 +1418,21 @@ MonoBehaviour:
       \u201CSykies\" o m\xE1s conocido como el reino de las islas flotantes, construido
       entre las nubes m\xE1s altas, tan altas que rozan al sol. Para gobernarlas,
       fue elegido el Rey sabio por su gran carisma y vocaci\xF3n de servicio. "
-    - "Se viv\xEDa realmente feliz, en paz y armon\xEDa hasta que un d\xEDa un gran
-      mago, encontr\xF3 una inmensa fuente de poder y le pidi\xF3 permiso al Rey para
-      usarlo, pero el este en su gran sabidur\xEDa entendi\xF3 que el poder podr\xEDa
+    - "Se viv\xEDa realmente feliz, en paz y armon\xEDa, hasta que un d\xEDa un gran
+      mago encontr\xF3 una inmensa fuente de poder y le pidi\xF3 permiso al Rey para
+      usarla, pero este, con su gran sabidur\xEDa, entendi\xF3 que el poder podr\xEDa
       traer consigo una gran desgracia por lo que le prohibi\xF3 su uso. "
-    - "Entonces el gran mago, dentro de su ira desobedeci\xF3 al rey y huy\xF3 a una
-      isla lejana donde desat\xF3 el poder maligno sobre todo el reino corrompiendo
+    - "Entonces el gran mago, dentro de su ira, desobedeci\xF3 al Rey y huy\xF3 a
+      una isla lejana donde desat\xF3 el poder maligno sobre todo el reino corrompiendo
       a los ciudadanos de bien y haciendo que estos pierdan la bondad que habitaba
       en sus corazones.  \r"
     - "Poco a poco el reino se fue derrumbando y la maldad se esparc\xEDa por todos
       lados causando diversas problem\xE1ticas que afectaban la calidad de vida de
-      las personas y del entorno. Las personas comenzaban a padecer problemas de salud,
-      viv\xEDan malhumorados y estrezados. "
-    - "El rey sabio preocupado por la situaci\xF3n hizo el llamado al h\xE9roe, el
-      cual es puro de coraz\xF3n y con un deseo de servicio inquebrantable, siendo
-      el \xFAnico que pod\xEDa hacerle frente a semejante situaci\xF3n.\n                                El
+      los habitantes y del entorno. Las personas comenzaban a padecer problemas de
+      salud, viv\xEDan malhumorados y estrezados. "
+    - "El Rey sabio preocupado, por la situaci\xF3n, hizo el llamado al h\xE9roe,
+      el cual es puro de coraz\xF3n y con un deseo de servicio inquebrantable, siendo
+      el \xFAnico que pod\xEDa hacerle frente a semejante situaci\xF3n.\n                                   ...El
       h\xE9roe est\xE1 en camino..."
 --- !u!1 &1685242100
 GameObject:

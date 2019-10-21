@@ -389,6 +389,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaNivel: IB Retos
+  detenerTiempo: 0
+  reintentar: 0
+  abandonar: 0
+  tiempoDesmontarEscena: 0
+  reintentarBtn: {fileID: 1360487481}
 --- !u!4 &1106071178
 Transform:
   m_ObjectHideFlags: 0

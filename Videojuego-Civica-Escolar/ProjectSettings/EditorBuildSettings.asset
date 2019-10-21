@@ -44,4 +44,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: d7aae2d4b2dc6ee4fb09524c6835575d
+  - enabled: 1
+    path: Assets/Scenes/Isla tienda.unity
+    guid: 9c44f3c13562d0d40a2c2c450fab9433
+  - enabled: 1
+    path: Assets/Scenes/Isla reciclaje/Isla robot.unity
+    guid: f9d52978e974a254ea4c5d6384aaf34e
+  - enabled: 1
+    path: Assets/Scenes/Pantalla de carga.unity
+    guid: 0c1fc4db49a75d64abe3c6ca63f4ef8c
+  - enabled: 1
+    path: Assets/Scenes/Isla principal.unity
+    guid: 61b87a1473936374899c6d965e93bc22
   m_configObjects: {}

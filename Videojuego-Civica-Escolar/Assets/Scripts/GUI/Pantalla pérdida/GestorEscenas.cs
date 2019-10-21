@@ -8,13 +8,16 @@ public class GestorEscenas : MonoBehaviour
     public string escenaNivel;
     public float detenerTiempo;
     public bool reintentar = false;
+    public bool abandonar = false;
     public float tiempoDesmontarEscena;
+    public GameObject reintentarBtn;
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.None;
 		Cursor.visible = true;   
-        reintentar = false;     
+        reintentar = false;  
+        abandonar = false;   
     }
 
     // Update is called once per frame
@@ -35,7 +38,12 @@ public class GestorEscenas : MonoBehaviour
                 reintentar = false;
             }
 
-        }        
+        }     
+
+        if(abandonar == true){
+            Time.timeScale = 1f; 
+            reintentarBtn.SetActive(false);     
+        }
     }
 
     public void Reintentar(){        
@@ -45,9 +53,22 @@ public class GestorEscenas : MonoBehaviour
 		Cursor.visible = false;   
     }
 
-    public void Abandonar(){
-        SceneManager.LoadScene("IslaPrincipal");
-        Time.timeScale = 1f;
+    public void Abandonar(){    
+        abandonar = true;        
+        
+        StartCoroutine(LoadYourAsyncScene());
+    }
+
+    IEnumerator LoadYourAsyncScene()
+    {      
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Isla principal");
+
+        // Wait until the asynchronous scene fully loads
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 
 

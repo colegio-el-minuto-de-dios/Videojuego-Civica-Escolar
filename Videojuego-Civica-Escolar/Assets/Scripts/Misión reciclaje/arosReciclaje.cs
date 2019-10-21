@@ -17,6 +17,7 @@ public class arosReciclaje : MonoBehaviour
         if(other.name != "Misil"){
             if (other.GetComponent<residuos>().tipoBasura == tipoDesecho){
             Destroy(other.gameObject);
+            contadorReciclaje.reciclajeCorrecto += 1;
         }
         else{
             other.GetComponent<residuos>().coincidencia = "no";
@@ -34,6 +35,7 @@ public class arosReciclaje : MonoBehaviour
 
     void OnMouseDown() {
         aroSeleccionado = gameObject.name;
+        print(aroSeleccionado);
 
         
     }

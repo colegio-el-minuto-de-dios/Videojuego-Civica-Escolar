@@ -6,6 +6,7 @@ public class activarParlante : MonoBehaviour
 {
     public GameObject ruidoAleatorio;
     public GameObject parlante;
+    public Animator rockero;
     public string haTocado = "No";
     // Start is called before the first frame update
     void Start(){
@@ -18,6 +19,7 @@ public class activarParlante : MonoBehaviour
         if((other.tag == "Player") && (haTocado == "No")){
             haTocado = "Si";
             if(haTocado ==  "Si"){
+                rockero.SetBool("apagarParlante",true);
                 parlante.GetComponent<AudioSource>().Stop();
                 ruidoAleatorio.GetComponent<ruidoAleatorio>().AparicionAleatoria();  
                 ruidoAleatorio.GetComponent<ruidoAleatorio>().enabled = false;

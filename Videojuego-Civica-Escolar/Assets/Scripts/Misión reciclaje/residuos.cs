@@ -13,9 +13,13 @@ public class residuos : MonoBehaviour
     public string tipoBasura;
     public string coincidencia;
     public GameObject etiqueta;
+    
+    public float escalaX;
+    public float escalaY;
+    public float escalaZ;
 
     // Start is called before the first frame update
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -32,15 +36,20 @@ public class residuos : MonoBehaviour
         
 
         if (coincidencia == "no"){
+            gameObject.transform.localScale = new Vector3(escalaX, escalaY, escalaZ);   
+            etiqueta.SetActive(true);  
             transform.parent = null;   
-            transform.position = puntoOrigen.position;              
+            transform.position = puntoOrigen.position;                     
             coincidencia ="";
+            
             
         } 
         
     }
 
     void OnTriggerEnter(Collider other){
+
+        
         
         if(other.name == "ManoDer"){        
         transform.position = misil.position;
@@ -57,6 +66,8 @@ public class residuos : MonoBehaviour
 
     void OnMouseDown(){
         if(contadorReciclaje.itemsMisil <3){
+             gameObject.transform.localScale = new Vector3(escalaX/4, escalaY/4, escalaZ/4);   
+            etiqueta.SetActive(false);
            clic = "si"; 
         }
                

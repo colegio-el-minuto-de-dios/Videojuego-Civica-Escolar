@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.22571447, b: 0.30692196, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276941, g: 0.21589373, b: 0.2978269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 28481425}
   - component: {fileID: 28481427}
   - component: {fileID: 28481426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (7)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 28856257}
   - component: {fileID: 28856259}
   - component: {fileID: 28856260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (34)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 37815559}
   - component: {fileID: 37815560}
   - component: {fileID: 37815561}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (36)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 73038628}
   - component: {fileID: 73038627}
   - component: {fileID: 73038626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (22)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 75516017}
   - component: {fileID: 75516016}
   - component: {fileID: 75516015}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (19)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 82616161}
   - component: {fileID: 82616162}
   - component: {fileID: 82616163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (1)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 98945856}
   - component: {fileID: 98945858}
   - component: {fileID: 98945859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube10 (6)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 130157595}
   - component: {fileID: 130157597}
   - component: {fileID: 130157596}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1095,7 +1095,7 @@ GameObject:
   - component: {fileID: 138270091}
   - component: {fileID: 138270093}
   - component: {fileID: 138270094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube10 (5)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -1199,7 +1199,7 @@ GameObject:
   - component: {fileID: 161762949}
   - component: {fileID: 161762948}
   - component: {fileID: 161762947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (10)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 165378653}
   - component: {fileID: 165378655}
   - component: {fileID: 165378656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (26)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -1396,7 +1396,7 @@ GameObject:
   - component: {fileID: 179886270}
   - component: {fileID: 179886271}
   - component: {fileID: 179886272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (30)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -1516,7 +1516,7 @@ GameObject:
   - component: {fileID: 211797819}
   - component: {fileID: 211797818}
   - component: {fileID: 211797817}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (9)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -1606,7 +1606,7 @@ GameObject:
   - component: {fileID: 213567870}
   - component: {fileID: 213567869}
   - component: {fileID: 213567868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (14)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -1696,7 +1696,7 @@ GameObject:
   - component: {fileID: 217354287}
   - component: {fileID: 217354286}
   - component: {fileID: 217354285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (12)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -1788,7 +1788,7 @@ GameObject:
   - component: {fileID: 255748510}
   - component: {fileID: 255748511}
   - component: {fileID: 255748512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube9 (3)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -2001,7 +2001,7 @@ GameObject:
   - component: {fileID: 296060215}
   - component: {fileID: 296060217}
   - component: {fileID: 296060216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (1)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -2136,7 +2136,7 @@ GameObject:
   - component: {fileID: 318697296}
   - component: {fileID: 318697298}
   - component: {fileID: 318697297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (4)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -2268,7 +2268,7 @@ GameObject:
   - component: {fileID: 409205935}
   - component: {fileID: 409205934}
   - component: {fileID: 409205933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (17)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -2359,7 +2359,7 @@ GameObject:
   - component: {fileID: 454192645}
   - component: {fileID: 454192647}
   - component: {fileID: 454192648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (27)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -2530,7 +2530,7 @@ GameObject:
   - component: {fileID: 490929192}
   - component: {fileID: 490929194}
   - component: {fileID: 490929193}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (4)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -2689,7 +2689,7 @@ GameObject:
   - component: {fileID: 565609120}
   - component: {fileID: 565609122}
   - component: {fileID: 565609123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (32)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -2796,7 +2796,7 @@ GameObject:
   - component: {fileID: 579546889}
   - component: {fileID: 579546891}
   - component: {fileID: 579546890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (5)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -2929,7 +2929,7 @@ GameObject:
   - component: {fileID: 590633952}
   - component: {fileID: 590633954}
   - component: {fileID: 590633955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (35)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -3058,7 +3058,7 @@ GameObject:
   - component: {fileID: 636969382}
   - component: {fileID: 636969384}
   - component: {fileID: 636969383}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3186,7 +3186,7 @@ GameObject:
   - component: {fileID: 744247683}
   - component: {fileID: 744247682}
   - component: {fileID: 744247681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (15)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -3304,7 +3304,7 @@ GameObject:
   - component: {fileID: 771050705}
   - component: {fileID: 771050706}
   - component: {fileID: 771050707}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (2)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -3421,7 +3421,7 @@ GameObject:
   - component: {fileID: 778130416}
   - component: {fileID: 778130418}
   - component: {fileID: 778130419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube9 (4)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -3528,7 +3528,7 @@ GameObject:
   - component: {fileID: 803008760}
   - component: {fileID: 803008762}
   - component: {fileID: 803008761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (3)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -3663,7 +3663,7 @@ GameObject:
   - component: {fileID: 808413929}
   - component: {fileID: 808413931}
   - component: {fileID: 808413930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (6)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -3797,7 +3797,7 @@ GameObject:
   - component: {fileID: 812584449}
   - component: {fileID: 812584450}
   - component: {fileID: 812584451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (33)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -3919,7 +3919,7 @@ GameObject:
   - component: {fileID: 815663125}
   - component: {fileID: 815663126}
   - component: {fileID: 815663127}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (19)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -4040,7 +4040,7 @@ GameObject:
   - component: {fileID: 825520830}
   - component: {fileID: 825520832}
   - component: {fileID: 825520833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (22)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -4147,7 +4147,7 @@ GameObject:
   - component: {fileID: 871457447}
   - component: {fileID: 871457449}
   - component: {fileID: 871457448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (11)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -4281,7 +4281,7 @@ GameObject:
   - component: {fileID: 927488555}
   - component: {fileID: 927488556}
   - component: {fileID: 927488557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (9)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -4397,7 +4397,7 @@ GameObject:
   - component: {fileID: 946337733}
   - component: {fileID: 946337732}
   - component: {fileID: 946337731}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube18 (1)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -4489,7 +4489,7 @@ GameObject:
   - component: {fileID: 959003332}
   - component: {fileID: 959003333}
   - component: {fileID: 959003334}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (13)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -4607,7 +4607,7 @@ GameObject:
   - component: {fileID: 966596740}
   - component: {fileID: 966596741}
   - component: {fileID: 966596742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube4 (4)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -4730,7 +4730,7 @@ GameObject:
   - component: {fileID: 967599271}
   - component: {fileID: 967599273}
   - component: {fileID: 967599272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (10)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -4891,7 +4891,7 @@ GameObject:
   - component: {fileID: 979265402}
   - component: {fileID: 979265404}
   - component: {fileID: 979265403}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (11)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5023,7 +5023,7 @@ GameObject:
   - component: {fileID: 988255176}
   - component: {fileID: 988255175}
   - component: {fileID: 988255174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (11)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5115,7 +5115,7 @@ GameObject:
   - component: {fileID: 1041439611}
   - component: {fileID: 1041439612}
   - component: {fileID: 1041439613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (23)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5238,7 +5238,7 @@ GameObject:
   - component: {fileID: 1058115657}
   - component: {fileID: 1058115659}
   - component: {fileID: 1058115658}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (2)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5370,7 +5370,7 @@ GameObject:
   - component: {fileID: 1069348432}
   - component: {fileID: 1069348431}
   - component: {fileID: 1069348430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (21)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5463,7 +5463,7 @@ GameObject:
   - component: {fileID: 1079450878}
   - component: {fileID: 1079450880}
   - component: {fileID: 1079450879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (5)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5596,7 +5596,7 @@ GameObject:
   - component: {fileID: 1080351956}
   - component: {fileID: 1080351955}
   - component: {fileID: 1080351954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cubo B
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5705,7 +5705,7 @@ GameObject:
   - component: {fileID: 1080451288}
   - component: {fileID: 1080451289}
   - component: {fileID: 1080451290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (12)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5824,7 +5824,7 @@ GameObject:
   - component: {fileID: 1141826201}
   - component: {fileID: 1141826203}
   - component: {fileID: 1141826202}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (16)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -5984,7 +5984,7 @@ GameObject:
   - component: {fileID: 1242130937}
   - component: {fileID: 1242130938}
   - component: {fileID: 1242130939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (7)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -6098,7 +6098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1243924274}
   - component: {fileID: 1243924275}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "Obst\xE1culos"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6211,7 +6211,7 @@ GameObject:
   - component: {fileID: 1260793915}
   - component: {fileID: 1260793916}
   - component: {fileID: 1260793917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (4)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -6350,7 +6350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1292305417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cubos blancos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6399,7 +6399,7 @@ GameObject:
   - component: {fileID: 1309418423}
   - component: {fileID: 1309418422}
   - component: {fileID: 1309418421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cubo A
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -6509,7 +6509,7 @@ GameObject:
   - component: {fileID: 1422713066}
   - component: {fileID: 1422713068}
   - component: {fileID: 1422713067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (6)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -6638,7 +6638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1441188881}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6680,7 +6680,7 @@ GameObject:
   - component: {fileID: 1458997427}
   - component: {fileID: 1458997429}
   - component: {fileID: 1458997428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (6)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -6814,7 +6814,7 @@ GameObject:
   - component: {fileID: 1460477142}
   - component: {fileID: 1460477143}
   - component: {fileID: 1460477144}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (3)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -6932,7 +6932,7 @@ GameObject:
   - component: {fileID: 1467705822}
   - component: {fileID: 1467705823}
   - component: {fileID: 1467705824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube4 (3)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -7055,7 +7055,7 @@ GameObject:
   - component: {fileID: 1477637843}
   - component: {fileID: 1477637845}
   - component: {fileID: 1477637844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (9)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -7190,7 +7190,7 @@ GameObject:
   - component: {fileID: 1481080839}
   - component: {fileID: 1481080841}
   - component: {fileID: 1481080840}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (15)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -7323,7 +7323,7 @@ GameObject:
   - component: {fileID: 1481285402}
   - component: {fileID: 1481285404}
   - component: {fileID: 1481285405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (13)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -7426,7 +7426,7 @@ GameObject:
   - component: {fileID: 1496458006}
   - component: {fileID: 1496458005}
   - component: {fileID: 1496458004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camera B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7513,7 +7513,7 @@ GameObject:
   - component: {fileID: 1501504718}
   - component: {fileID: 1501504720}
   - component: {fileID: 1501504719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (8)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -7647,7 +7647,7 @@ GameObject:
   - component: {fileID: 1502887739}
   - component: {fileID: 1502887740}
   - component: {fileID: 1502887741}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (21)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -7769,7 +7769,7 @@ GameObject:
   - component: {fileID: 1550835151}
   - component: {fileID: 1550835152}
   - component: {fileID: 1550835153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (2)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -7887,7 +7887,7 @@ GameObject:
   - component: {fileID: 1557898942}
   - component: {fileID: 1557898943}
   - component: {fileID: 1557898944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube10 (4)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -8007,7 +8007,7 @@ GameObject:
   - component: {fileID: 1566700191}
   - component: {fileID: 1566700190}
   - component: {fileID: 1566700189}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8108,7 +8108,7 @@ GameObject:
   - component: {fileID: 1575275892}
   - component: {fileID: 1575275893}
   - component: {fileID: 1575275894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (8)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -8227,7 +8227,7 @@ GameObject:
   - component: {fileID: 1599795319}
   - component: {fileID: 1599795321}
   - component: {fileID: 1599795320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (1)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -8362,7 +8362,7 @@ GameObject:
   - component: {fileID: 1618478988}
   - component: {fileID: 1618478990}
   - component: {fileID: 1618478989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (5)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -8497,7 +8497,7 @@ GameObject:
   - component: {fileID: 1656246487}
   - component: {fileID: 1656246489}
   - component: {fileID: 1656246488}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (10)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -8630,7 +8630,7 @@ GameObject:
   - component: {fileID: 1703210665}
   - component: {fileID: 1703210667}
   - component: {fileID: 1703210668}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (20)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -8762,7 +8762,7 @@ GameObject:
   - component: {fileID: 1762579228}
   - component: {fileID: 1762579229}
   - component: {fileID: 1762579230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (28)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -8885,7 +8885,7 @@ GameObject:
   - component: {fileID: 1790799265}
   - component: {fileID: 1790799267}
   - component: {fileID: 1790799266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (14)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -9016,7 +9016,7 @@ GameObject:
   - component: {fileID: 1884966786}
   - component: {fileID: 1884966785}
   - component: {fileID: 1884966784}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camera A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9152,7 +9152,7 @@ GameObject:
   - component: {fileID: 1914809124}
   - component: {fileID: 1914809123}
   - component: {fileID: 1914809122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (20)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -9266,7 +9266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1929728691}
   - component: {fileID: 1929728690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plataformas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9323,7 +9323,7 @@ GameObject:
   - component: {fileID: 1950596648}
   - component: {fileID: 1950596647}
   - component: {fileID: 1950596646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (18)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -9413,7 +9413,7 @@ GameObject:
   - component: {fileID: 1950654150}
   - component: {fileID: 1950654149}
   - component: {fileID: 1950654148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1 (13)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -9530,7 +9530,7 @@ GameObject:
   - component: {fileID: 1960409490}
   - component: {fileID: 1960409492}
   - component: {fileID: 1960409493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (25)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -9634,7 +9634,7 @@ GameObject:
   - component: {fileID: 1964914864}
   - component: {fileID: 1964914863}
   - component: {fileID: 1964914862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube3 (1)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -9727,7 +9727,7 @@ GameObject:
   - component: {fileID: 1976876295}
   - component: {fileID: 1976876297}
   - component: {fileID: 1976876296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (7)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -9856,7 +9856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1996745124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Baldosas caidas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9906,7 +9906,7 @@ GameObject:
   - component: {fileID: 2116338609}
   - component: {fileID: 2116338610}
   - component: {fileID: 2116338611}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (29)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10028,7 +10028,7 @@ GameObject:
   - component: {fileID: 2129743262}
   - component: {fileID: 2129743263}
   - component: {fileID: 2129743264}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8 (24)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10151,7 +10151,7 @@ GameObject:
   - component: {fileID: 2130845648}
   - component: {fileID: 2130845650}
   - component: {fileID: 2130845649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6 (8)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10286,7 +10286,7 @@ GameObject:
   - component: {fileID: 2139204907}
   - component: {fileID: 2139204909}
   - component: {fileID: 2139204908}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11 (3)
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10540,7 +10540,7 @@ GameObject:
   - component: {fileID: 1904019949}
   - component: {fileID: 1904019952}
   - component: {fileID: 596620195343366146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube4
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10650,7 +10650,7 @@ GameObject:
   - component: {fileID: 465816852}
   - component: {fileID: 465816855}
   - component: {fileID: 465816856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10670,7 +10670,7 @@ GameObject:
   - component: {fileID: 3507524762100703570}
   - component: {fileID: 635584739}
   - component: {fileID: 635584742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube9
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10691,7 +10691,7 @@ GameObject:
   - component: {fileID: 1905554138}
   - component: {fileID: 1905554141}
   - component: {fileID: 1665664649323201824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube12
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10824,7 +10824,7 @@ GameObject:
   - component: {fileID: 1269269741}
   - component: {fileID: 2690692937831402071}
   - component: {fileID: 2690692937831402070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube19
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -10870,6 +10870,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "Coraz\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2750827558673980181, guid: 2f26c4670af4be34b8b8797b5a7fddf5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2750827558673980180, guid: 2f26c4670af4be34b8b8797b5a7fddf5,
         type: 3}
@@ -10926,6 +10931,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1704444850884906634, guid: 2f26c4670af4be34b8b8797b5a7fddf5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2750827558424410468, guid: 2f26c4670af4be34b8b8797b5a7fddf5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2750827558424410464, guid: 2f26c4670af4be34b8b8797b5a7fddf5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2750827558424410466, guid: 2f26c4670af4be34b8b8797b5a7fddf5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2750827558424410470, guid: 2f26c4670af4be34b8b8797b5a7fddf5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872456432928790982, guid: 2f26c4670af4be34b8b8797b5a7fddf5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f26c4670af4be34b8b8797b5a7fddf5, type: 3}
 --- !u!1 &3109054207789687084
@@ -10941,7 +10976,7 @@ GameObject:
   - component: {fileID: 5588883522332151880}
   - component: {fileID: 1923405371}
   - component: {fileID: 1923405374}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11066,7 +11101,7 @@ GameObject:
   - component: {fileID: 1730300390}
   - component: {fileID: 1730300393}
   - component: {fileID: 4647662661927585538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube13
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11139,7 +11174,7 @@ GameObject:
   - component: {fileID: 1189617872}
   - component: {fileID: 4749387627768420810}
   - component: {fileID: 4749387627768420809}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube2
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11189,7 +11224,7 @@ GameObject:
   - component: {fileID: 473901321}
   - component: {fileID: 4773740682515874602}
   - component: {fileID: 4773740682515874601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube7
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11238,7 +11273,7 @@ GameObject:
   - component: {fileID: 1957719411}
   - component: {fileID: 1957719414}
   - component: {fileID: 4775378786700189117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube16
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11274,7 +11309,7 @@ GameObject:
   - component: {fileID: 541804146}
   - component: {fileID: 4786219583974104208}
   - component: {fileID: 4786219583974104207}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube17
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11332,7 +11367,7 @@ GameObject:
   - component: {fileID: 769817607}
   - component: {fileID: 5008901548019671694}
   - component: {fileID: 5008901548019671693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube5
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11697,7 +11732,7 @@ GameObject:
   - component: {fileID: 697988924}
   - component: {fileID: 697988927}
   - component: {fileID: 6744535315999145354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube18
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11890,7 +11925,7 @@ GameObject:
   - component: {fileID: 280431895}
   - component: {fileID: 280431898}
   - component: {fileID: 7423511278812471395}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube10
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11927,7 +11962,7 @@ GameObject:
   - component: {fileID: 972844247}
   - component: {fileID: 972844250}
   - component: {fileID: 7649926527684197567}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube15
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -11998,7 +12033,7 @@ GameObject:
   - component: {fileID: 700533615}
   - component: {fileID: 700533618}
   - component: {fileID: 7836296363996722269}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube11
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -12164,7 +12199,7 @@ GameObject:
   - component: {fileID: 263787071}
   - component: {fileID: 263787074}
   - component: {fileID: 8875139604834504286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube14
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -12236,7 +12271,7 @@ GameObject:
   - component: {fileID: 119625117}
   - component: {fileID: 119625120}
   - component: {fileID: 119625121}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube3
   m_TagString: Pasivo
   m_Icon: {fileID: 0}
@@ -12257,7 +12292,7 @@ GameObject:
   - component: {fileID: 265611308}
   - component: {fileID: 265611311}
   - component: {fileID: 265611312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6
   m_TagString: Pasivo
   m_Icon: {fileID: 0}

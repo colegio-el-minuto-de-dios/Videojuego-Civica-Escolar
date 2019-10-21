@@ -13,12 +13,13 @@ public class contadorReciclaje : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        reciclajeCorrecto = 0;
         itemsMisil = 0;     
         botonLanzarMisil.interactable = false;    
     }
 
     void Update(){
-        contadorGUI.text = itemsMisil.ToString();
+        contadorGUI.text = ("Reciclaje correcto: " + reciclajeCorrecto + "/9").ToString();
         if (itemsMisil > 3){
             itemsMisil = 3;
         } 
@@ -34,6 +35,7 @@ public class contadorReciclaje : MonoBehaviour
     public void DeshabilitarBoton(){
         botonLanzarMisil.interactable = false;
     }
+    
 
     
 }
