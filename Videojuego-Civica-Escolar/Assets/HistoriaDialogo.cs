@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class HistoriaDialogo : MonoBehaviour
@@ -16,6 +17,12 @@ public class HistoriaDialogo : MonoBehaviour
 	public float timmer;
 
 	public string finHistoria;
+
+	public GameObject panelImagenes;
+
+	public Sprite[] ilustracionesHistoria;
+
+	public static int imagenActual = 1;
 
 	// Use this for initialization
 	void Start () {
@@ -38,6 +45,7 @@ public class HistoriaDialogo : MonoBehaviour
 
 	public void DisplayNextSentence ()
 	{
+
 		
 		if (sentences.Count == 0)
 		{
@@ -90,6 +98,32 @@ public class HistoriaDialogo : MonoBehaviour
             yield return null;
         }
     }
+
+	public void CambiarIlustración()
+    {
+ 
+        if (imagenActual == 1){
+			panelImagenes.GetComponent<Image> ().sprite = ilustracionesHistoria [imagenActual];
+            imagenActual++;
+		} 
+		else if (imagenActual == 2) {
+            panelImagenes.GetComponent<Image> ().sprite = ilustracionesHistoria [imagenActual];
+            imagenActual++;
+        }
+		else if (imagenActual == 3) {
+            panelImagenes.GetComponent<Image> ().sprite = ilustracionesHistoria [imagenActual];
+            imagenActual++;
+        }
+		else if (imagenActual == 4) {
+            panelImagenes.GetComponent<Image> ().sprite = ilustracionesHistoria [imagenActual];
+            imagenActual++;
+        }
+		else if (imagenActual == 5) {
+            panelImagenes.GetComponent<Image> ().sprite = ilustracionesHistoria [imagenActual];
+            
+        }
+ 
+        }
 
 }
     
