@@ -2,7 +2,7 @@
 Todos los cambios notables de este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Actualizaciones futuras]
+## [Actualizaciones futuras] (https://github.com/colegio-el-minuto-de-dios/Videojuego-Civica-Escolar/blob/master/Actualizaciones%20futuras.md)
 
 ## [Pre-alpha] - 2019 Pre-Alpha v1.
 ### Añadido
