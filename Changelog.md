@@ -2,7 +2,7 @@
 Todos los cambios notables de este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Actualizaciones futuras] (https://github.com/colegio-el-minuto-de-dios/Videojuego-Civica-Escolar/blob/master/Actualizaciones%20futuras.md)
+## [Actualizaciones futuras]
 
 ## [Pre-alpha] - 2019 Pre-Alpha v1.
 ### Añadido
@@ -27,3 +27,5 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.
 - Se agregaron nuevas animaciones al controlador de los NPCs.
 - Se cambió de modelo para el NPC del rey sabio.
 - La música de la pantalla principal fué cambiada.
+
+[Actualizaciones futuras]: https://github.com/colegio-el-minuto-de-dios/Videojuego-Civica-Escolar/blob/master/Actualizaciones%20futuras.md
