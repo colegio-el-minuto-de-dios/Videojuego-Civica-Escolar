@@ -15,8 +15,8 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.
   - SplashScreen que contiene los logotipos de la "Corporción educativa Minuto de Dios" y del "Colegio Minuto de Dios".
 - Se completó el campo de "Historia" del menú principal. 
 - El videojuego ahora puede recibir datos desde un servidor:
-  - Es posible proyectar en un tablero de información una imagen deseada refereiciando su URL desde el servidor.
-  - Es posible mostrar textos enviados desde el servidor.
+  - Es posible proyectar en un tablero de información una imagen deseada referenciando su URL desde el servidor.
+  - Es posible mostrar textos enviados desde el servidor dentro del videojuego.
 - Se agregó música al tutorial.
 - Al terminar el tutorial, el jugador será enviado a la isla principal para tomar un recorrido por la misma mediante una animación de cámara en donde se le brinda detalles sobre este lugar.
 
