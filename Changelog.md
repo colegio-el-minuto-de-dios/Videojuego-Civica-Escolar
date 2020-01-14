@@ -21,7 +21,7 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.
 - Al terminar el tutorial, el jugador será enviado a la isla principal para tomar un recorrido por la misma mediante una animación de cámara en donde se le brinda detalles sobre este lugar.
 - Nuevos eventos al recoger la medalla (que es el indicativo de que el jugador ha terminado el nivel): 
   - Se reproduce una animación especial con efecto de sonido.
-  - Al colisionar con la medalla se escriben los datos de guardado en el JSON de la partida actual y mediante una variable estática se comunica en la isla principal que jugador ha terminado la misión.
+  - Al colisionar con la medalla se escriben los datos de guardado en el JSON de la partida actual y mediante una variable estática se comunica a la isla principal que jugador ha terminado la misión.
   - El jugador es enviado a la isla principal.
 - Si el jugador completó la misión, aparecerá en un nuevo lugar en la isla principal y se le hará el recuento de su avance.
 
