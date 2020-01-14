@@ -18,7 +18,7 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.
   - Es posible proyectar en un tablero de información una imagen deseada refereiciando su URL desde el servidor.
   - Es posible mostrar textos enviados desde el servidor.
 - Se agregó música al tutorial.
-- Al terminar el tutorial, el jugador será enviado a la isla principal.
+- Al terminar el tutorial, el jugador será enviado a la isla principal para tomar un recorrido por la misma mediante una animación de cámara en donde se le brinda detalles sobre este lugar.
 
 ### Cambios
 - Se cambió el canal de renderizado pasando de Default a HDRP (High Definition Render Pipeline).
@@ -27,6 +27,6 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.
 - Se agregaron nuevas animaciones al controlador de los NPCs.
 - Se cambió de modelo para el NPC del rey sabio.
 - La música de la pantalla principal fué cambiada.
-- Las transiciones de entrada y salida fueron reemplazadas por videos los cuales se le aplica el efecto "crhoma key" mediante un shader script. Estas transiciones se controlan mediante un único script.
+- Las transiciones de entrada y salida fueron reemplazadas por videos a los cuales se les aplica el efecto "chroma key" con un material basado en un shader script. Estas transiciones se controlan mediante un único script C#.
 
 [Actualizaciones futuras]: https://github.com/colegio-el-minuto-de-dios/Videojuego-Civica-Escolar/blob/master/Actualizaciones%20futuras.md
