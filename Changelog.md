@@ -33,5 +33,6 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.
 - Se cambió de modelo para el NPC del rey sabio.
 - La música de la pantalla principal fué cambiada.
 - Las transiciones de entrada y salida fueron reemplazadas por videos a los cuales se les aplica el efecto "chroma key" con un material basado en un shader script. Estas transiciones se controlan mediante un único script C#.
+- Se reescribió todo el sistema de diálogos para simplificarlo.
 
 [Actualizaciones futuras]: https://github.com/colegio-el-minuto-de-dios/Videojuego-Civica-Escolar/blob/master/Actualizaciones%20futuras.md
