@@ -8,7 +8,9 @@ Se desarrollará un videojuego en el motor Unity 3D que trabaja bajo programacó
 La última actualización trae nuevas mecánicas como un controlador de stamina, puntos informativos, recepción de datos desde un servidor, sonidos de pisadas al caminar, posibilidad de tomar fotos dentro del juego, la pantalla principal, la medalla y otros cambios. Esta versión ES INESTABLE en algunos aspectos.
 * El nivel de la isla musical no fué desplegado a pesar de que ya están configuradas las mecánicas debido a la confusa distribución de los espacios. 
 * El nivel de la tienda escolar tampoco fué desplegado del todo debido a la mecánica repetitiva que puede hacer que los jugadores pierdan el interés. Sin embargo la mecánica principal está completamente funcional y desarrollé un sistema especial para que los NPCs pudieran ordenarse en fila e ir actualizando sus posiciones.
+
 En esta versión se reformó una mecánica de núcleo (el sistema de vidas) y se agregaron nuevos campos para guardar más datos en los ficheros JSON, por lo cual algunos niveles pudieron romperse. Así mismo el sistema de diálogos será cambiado en la próxima actualización para facilitar su uso y algunos códigos serán optimizados paulatinamente. 
+
 Resumiendo: **sugiero encarecidamente que los programadores no trabajen sobre esta versión. La versión estable que implementará los cambios mencionados y solucionará los errores existentes la liberaré el día 15 de febrero**. Por lo pronto pueden ir trabajando en el desarrollo conceptual de nuevos niveles y pulir aún más los modelos ya existentes para darle mayor consistencia al juego.
 Muchas gracias por su atención.
 
