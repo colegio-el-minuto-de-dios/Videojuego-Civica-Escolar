@@ -11,7 +11,7 @@ La última actualización trae nuevas mecánicas como un controlador de stamina,
 
 En esta versión se reformó una mecánica de núcleo (el sistema de vidas) y se agregaron nuevos campos para guardar más datos en los ficheros JSON, por lo cual algunos niveles pudieron romperse. Así mismo el sistema de diálogos será cambiado en la próxima actualización para facilitar su uso y algunos códigos serán optimizados paulatinamente. 
 
-Resumiendo: **sugiero encarecidamente que los programadores no trabajen sobre esta versión. La versión estable que implementará los cambios mencionados y solucionará los errores existentes la liberaré el día 20 de febrero**. Por lo pronto pueden ir trabajando en el desarrollo conceptual de nuevos niveles y pulir aún más los modelos ya existentes para darle mayor consistencia al juego.
+Resumiendo: **sugiero encarecidamente que los programadores no trabajen sobre esta versión. La versión estable que implementará los cambios mencionados y solucionará los errores existentes la liberaré en unos días**. Por lo pronto pueden ir trabajando en el desarrollo conceptual de nuevos niveles y pulir aún más los modelos ya existentes para darle mayor consistencia al juego.
 Muchas gracias por su atención.
 
 ## Comenzando 🚀
