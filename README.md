@@ -22,7 +22,7 @@ _Para el equipo: Seguir las instrucciones detalladas a continuación para obtene
 * Descargar Unity
 
 ## Software usado 🛠️
-* [Unity v.20191.6f1 Personal](http://www.dropwizard.io/1.0.2/docs/) - Motor de videojuegos.
+* [Unity v.2019.1.6f1 Personal](https://www.filehorse.com/download-unity/41179/) - Motor de videojuegos.
 * [Maya for Students](https://www.autodesk.com/education/free-software/maya) - Modelado 3D.
 * [Blender 2.8](https://www.blender.org) - Modelado 3D.
 * [Adobe Fuse CC](https://www.adobe.com/products/fuse.html) - Modelado de personajes.
